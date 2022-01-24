@@ -1,0 +1,200 @@
+/**
+CSS PROYECTO @RM@NDO CASELLS
+**/
+
+@font-face {
+	font-family: "PressStart2P";
+	src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "PressStart2P", arial;
+	color: #fff;
+}
+
+.background0 {
+	background-image: url("../images/fondo1.jpg");
+}
+.background1 {
+	background-image: url("../images/fondo2.jpg");
+}
+.background2 {
+	background-image: url("../images/fondo3.jpg");
+}
+
+.colorLetraTit0 {
+	color: Red !important;
+}
+.colorLetraTit1 {
+	color: Blue !important;
+}
+.colorLetraTit2 {
+	color: Aqua !important;
+}
+.colorLetraTit3 {
+	color: White !important;
+}
+
+h3 {
+	padding: 10px;
+	text-transform: uppercase;
+	color: #9180ff;
+}
+
+p {
+	margin: 10px;
+}
+
+hr {
+	border: 1px solid aqua;
+	margin: auto;
+	width: 80%;
+}
+
+.cabecera, .contenido, .piepagina{
+	border: 2px solid aqua;
+	border-radius: 10px;
+	width: 98%;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+}
+
+.contenido {
+	background-color: rgba(00,00,00,0.7);
+}
+
+.formulario {
+	padding: 20px;
+}
+
+.piepagina {
+	height: 45px !important;
+	font-size: 10px;
+}
+
+.logo {
+	position: absolute;
+	float:left;
+	margin: -6px 0px 0px 50px;
+}
+
+.titulo {
+	font-size: 50px;
+	margin: 22px;
+}
+
+.horas {
+	font-size: 150px;
+	color: #13a606;
+}
+
+.articulo {
+	display: inline;
+    margin: 0px auto;
+}
+
+.juegos {
+	display: inline-block;
+	padding: 30px;	
+}
+
+.imgJuego {
+	height: 300px;
+}
+
+.imgFondos {
+	width: 330px;
+	height: 300px;
+	border-radius: 10px;
+	border: 1px solid aqua;
+	margin-bottom: 10px
+}
+
+.imgFondo0 {
+	background-image: url("../images/fondo1.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.imgFondo1 {
+	background-image: url("../images/fondo2.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 	
+}
+.imgFondo2 {
+	background-image: url("../images/fondo3.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 	
+}
+
+.nomjuego {
+	border: 1px solid aqua;
+	border-radius: 10px;
+	padding: 10px;
+	width: 310px;
+	display: inline-block;
+}
+
+button {
+	font-size: 20px;
+	font-family: unset;
+	background-color: aqua;
+	color: #000;
+	border-radius: 10px;
+	padding: 10px;
+	border: 0px;
+	margin: 20px;
+}
+
+input[type=text], input[type=number], select {
+	width: 800px;
+	font-size: 20px;
+	font-family: unset;
+	background-color: #000;
+	color: #13a606;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid aqua;
+	margin: 20px;
+}
+
+input[type=radio], input[type=checkbox] {
+	margin: 10px;
+}
+
+input[type=number] {
+	width: 100px !important;
+	font-size: 30px;
+}
+
+textarea {
+	width: 800px;
+	height:200px;
+	font-size: 10px;
+	font-family: unset;
+	background-color: #000;
+	color: #13a606;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid aqua;
+	margin: 20px;
+}
+
+.palabras {
+	font-size: 25px;
+}
+
+.descripcion {
+	width: 90% !important;
+}
+
+.puntuacion {
+	margin: 10px;
+}
